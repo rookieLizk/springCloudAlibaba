@@ -13,10 +13,6 @@
     <artifactId>hello-spring-cloud-alibaba-nacos-provider</artifactId>
     <packaging>jar</packaging>
 
-    <!--<name>hello-spring-cloud-alibaba-nacos-provider</name>-->
-    <!--<url>http://www.funtl.com</url>-->
-    <!--<inceptionYear>2018-Now</inceptionYear>-->
-
     <dependencies>
         <!-- Spring Boot Begin -->
         <dependency>
@@ -38,6 +34,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
     </dependencies>

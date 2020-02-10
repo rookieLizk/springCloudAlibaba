@@ -14,10 +14,6 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <!--<name>hello-spring-cloud-alibaba-dependencies</name>-->
-    <!--<url>http://www.funtl.com</url>-->
-    <!--<inceptionYear>2018-Now</inceptionYear>-->
-
     <properties>
         <!-- Environment Settings -->
         <java.version>1.8</java.version>
