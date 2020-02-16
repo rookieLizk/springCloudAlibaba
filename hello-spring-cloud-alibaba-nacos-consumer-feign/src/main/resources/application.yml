@@ -8,7 +8,7 @@ spring:
     sentinel:
       transport:
         port: 8720
-        dashboard: localhost:8080
+        dashboard: localhost:5555
 
 server:
   port: 9092
